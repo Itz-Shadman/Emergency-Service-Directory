@@ -53,3 +53,10 @@ clearBtn.onclick = function() {
   historyContainer.innerHTML = '';
   alert("Call history cleared!");
 }
+// COPY BUTTONS
+let availableCopy=0;
+function copyNumber(serviceNumber) {
+    availableCopy++;
+    document.getElementById("available-copy").innerText = availableCopy;
+    alert("Hotline number " + serviceNumber + " copied!");
+}
