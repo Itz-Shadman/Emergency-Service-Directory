@@ -1,3 +1,4 @@
+
 1) The differences between   getElementById, getElementsByClassName, and querySelector/querySelectorAll are given below:
 
 getElementById(id): Selects a single element by its unique id attribute.
