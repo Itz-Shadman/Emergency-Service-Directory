@@ -60,7 +60,7 @@ function copyNumber(serviceNumber) {
     document.getElementById("available-copy").innerText = availableCopy;
     alert("Hotline number " + serviceNumber + " copied!");
 }
-function callNumber(serviceNumber) {
-    alert("Calling hotline " + serviceNumber + "...");
-    window.location.href = "tel:" + serviceNumber; // opens phone dialer
-}
+// function callNumber(serviceNumber) {
+//     alert("Calling hotline " + serviceNumber + "...");
+//     window.location.href = "tel:" + serviceNumber; // opens phone dialer
+// }
